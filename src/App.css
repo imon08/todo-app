@@ -1,0 +1,98 @@
+.App {
+  background-color: black;
+  margin: 0;
+  min-height: 100vh;
+  padding: 1px;
+}
+
+.headline {
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.inputWorkdiv {
+  text-align: center;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.inputBar {
+  width: 65%;
+  padding: 5px 10px;
+  font-size: medium;
+  color: white;
+  border-radius: 4px;
+  background-color: rgb(44, 43, 43);
+  outline: none;
+  border-color: darkgray;
+}
+
+.addButton {
+  padding: 5px 45px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 40px;
+  background:linear-gradient(to right, rgb(220, 38, 38), rgb(254, 202, 202));
+  font-size: 20px;
+}
+
+.addButton:hover {
+  background: linear-gradient(to right, rgb(254, 202, 202), rgb(220, 38, 38));
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+  border-radius: 10px;
+}
+
+.listItem:nth-child(2n) {
+  background-color: rgb(221, 14, 221);
+}
+
+.listItem:nth-child(2n + 1) {
+  background-color: rgb(209, 76, 98);
+}
+
+.textbox {
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.taskButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 30px;
+  color: white;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.completed {
+  color: rgb(153, 255, 0);
+}
+
+.strike {
+  text-decoration: line-through;
+}
